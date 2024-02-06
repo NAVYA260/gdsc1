@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.organization-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organization-image {
+    max-width: 100%;
+    height: 200px;
+    width: 600px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #333;
+    width: 50px;
+    color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.Donatebutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #45a049;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto; 
+}
+
+.Donatebutton:hover {
+    background-color: #4CAF50;
+}
+.thank-you-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.thank-you-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.thank-you-statement {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
